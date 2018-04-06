@@ -17,3 +17,8 @@ This workshop will focus on deep learning. We will go over some basic concepts a
 <code class="language-python">mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)</code><br>
 <code class="language-python">plt.imshow(mnist.train.images.reshape(mnist.train.labels.shape[0],28,28)[0].reshape(28,28), cmap='gray')</code><br>
 <code class="language-python">plt.show()</code><br>
+
+<p>This block of codes will load the mnist data set and will output a black and white image of the digit 7, which is the first image in the training set.</p>
+
+<h2>Clone This Repo into your own machine</h2>
+<p>You should then clone this repo into your own machine. In this repo you can find two additional files demo_incomplete.py and demo_incomplete.ipynb. These are the skeleton code for the workshop. And we will be building on this to complete our classifier.</p>
