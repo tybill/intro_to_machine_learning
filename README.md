@@ -7,4 +7,14 @@ This workshop will focus on deep learning. We will go over some basic concepts a
 
 <h2>Environment Setup</h2>
 
-An instruction on how to setting up the environment could be fond here <a href = "http://caisplusplus.usc.edu/blog/curriculum/environment_setup"> here </a>. Please note that you only have to install tensorflow, numpy and matplotlib for this workshop. Therefore, after completing step 7 in the instruction, simply skip step 8. In step 10, you do not need to run these two commands: <code class="language-bash">pip install pandas</code> and <code class="language-bash">pip install keras</code>. Pandas and Keras are also two very popular packages in machine learning. However, we will not cover these two libraries in this workshop.
+<p>An instruction on how to setting up the environment could be fond here <a href = "http://caisplusplus.usc.edu/blog/curriculum/environment_setup"> here </a>. Please note that you only have to install tensorflow, numpy and matplotlib for this workshop. Therefore, after completing step 7 in the instruction, simply skip step 8. In step 10, you do not need to run these two commands: <code class="language-bash">pip install pandas</code> and <code class="language-bash">pip install keras</code>. Pandas and Keras are also two very popular packages in machine learning. However, we will not cover these two libraries in this workshop.</p>
+
+<p>After completing the above steps, you should be able to run the following lines of codesL</p>
+<code class="language-python">
+import matplotlib.pyplot as plt
+import numpy as np
+
+import tensorflow as tf
+from tensorflow.examples.tutorials.mnist import input_data
+mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)	
+</code>
