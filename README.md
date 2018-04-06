@@ -11,10 +11,10 @@ This workshop will focus on deep learning. We will go over some basic concepts a
 
 <p>After completing the above steps, you should be able to run the following lines of codesL</p>
 <code class="language-python">
-import matplotlib.pyplot as plt\n
-import numpy as np\n
+import matplotlib.pyplot as plt&lt
+import numpy as np&lt
 
-import tensorflow as tf\n
-from tensorflow.examples.tutorials.mnist import input_data\n
-mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)\n	
+import tensorflow as tf&lt
+from tensorflow.examples.tutorials.mnist import input_data&lt
+mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)&lt	
 </code>
