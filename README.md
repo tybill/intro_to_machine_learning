@@ -15,3 +15,5 @@ This workshop will focus on deep learning. We will go over some basic concepts a
 <br>
 <code class="language-python">import tensorflow as tf</code><br>
 <code class="language-python">mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)</code><br>
+<code class="language-python">plt.imshow(mnist.train.images.reshape(mnist.train.labels.shape[0],28,28)[0].reshape(28,28), cmap='gray')</code><br>
+<code class="language-python">plt.show()</code><br>
