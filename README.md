@@ -7,4 +7,4 @@ This workshop will focus on deep learning. We will go over some basic concepts a
 
 <h2>Environment Setup</h2>
 
-We will use tensorflow in this workshop. An instruction on how to setting up the environment could be fond here <a href = "http://caisplusplus.usc.edu/blog/curriculum/environment_setup"> here </a>
+An instruction on how to setting up the environment could be fond here <a href = "http://caisplusplus.usc.edu/blog/curriculum/environment_setup"> here </a>. Please note that you only have to install tensorflow, numpy and matplotlib for this workshop. Therefore, after completing step 7 in the instruction, simply skip step 8. In step 10, you do not need to run these two commands: <code class="language-bash">pip install pandas</code> and <code class="language-bash">pip install keras</code>. Pandas and Keras are also two very popular packages in machine learning. However, we will not cover these two libraries in this workshop.
